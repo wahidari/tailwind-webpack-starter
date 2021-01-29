@@ -2,7 +2,8 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: {
-    enabled: true,
+    // False, to enable auto reload when using new class name
+    // enabled: true,
     content: ["./**/*.html", "./**/*.js"],
   },
   presets: [],
